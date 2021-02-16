@@ -1,9 +1,9 @@
 import java.io.File
-import kotlin.test.currentStackTrace
+
 
 
 object Day1 {
-    private val myStr = File("/Users/calebjw/Documents/AdventOfCode/2015/Day1Input.txt").readText()
+    private val myStr = File("/Users/calebjw/Documents/AdventOfCode/2015/inputs/Day1Input.txt").readText()
 
     val myBracketValues = mapOf<Char, Int>(
         Pair('(', 1),
