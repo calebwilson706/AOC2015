@@ -75,8 +75,7 @@ class Day6 {
         }
 
         fun followThis(instruction: Day6Instruction) {
-            var counter = 0
-
+            
             for (x in instruction.lowerPoint.x..instruction.upperPoint.x){
                 for (y in instruction.lowerPoint.y .. instruction.upperPoint.y){
                     grid[Point(x, y)] = when (instruction.instruction){
