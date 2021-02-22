@@ -12,7 +12,7 @@ object Day8 {
             total += operation(it)
         }
 
-        print(total)
+        println(total)
     }
 
     fun part1() {
