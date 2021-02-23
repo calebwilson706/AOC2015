@@ -1,8 +1,6 @@
-import Day1.part1
-import kotlin.reflect.typeOf
-import kotlin.system.measureTimeMillis
-
 fun main(args: Array<String>){
-    Day10.part2()
-
+    timeTest(Day11::part1,1)
+    timeTest(Day11::part1optimised,2)
+    timeTest(Day11::part2,3)
+    timeTest(Day11::part2optimised,4)
 }
