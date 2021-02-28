@@ -65,3 +65,18 @@ fun <V> List<V>.permutations(): List<List<V>> {
     generate(this.count(), this.toList())
     return retVal
 }
+
+fun getFactors(n : Int) : List<Int> {
+    val factors = mutableListOf<Int>()
+
+    if (n < 1){
+        return factors
+    }
+
+    (1..n/2)
+        .filter { n % it == 0 }
+        .forEach { factors.add(it) }
+
+    factors.add(n)
+    return factors
+}
