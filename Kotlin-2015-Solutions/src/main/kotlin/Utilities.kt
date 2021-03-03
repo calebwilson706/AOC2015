@@ -80,3 +80,4 @@ fun getFactors(n : Int) : List<Int> {
     factors.add(n)
     return factors
 }
+
