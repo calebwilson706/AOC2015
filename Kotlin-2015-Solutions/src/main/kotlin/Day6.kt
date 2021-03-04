@@ -114,5 +114,5 @@ private enum class INSTRUCTIONS {
     ON,OFF,TOGGLE
 }
 private data class Day6Instruction(val lowerPoint: Point, val upperPoint: Point, val instruction: INSTRUCTIONS)
-private data class Point(val x : Int, val y : Int)
+data class Point(val x : Int, val y : Int)
 
